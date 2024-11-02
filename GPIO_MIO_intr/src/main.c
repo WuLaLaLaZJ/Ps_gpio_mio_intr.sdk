@@ -128,7 +128,7 @@ int main()
 	while(1)
 	{
 		if(XGpioPs_ReadPin(&GPIO,PS_KEY1) == 0)
-		{			
+		{	//按键使用了滤波电容，滤掉了抖动		
 			XGpioPs_WritePin(&GPIO,PS_LED1,flag);
 		}
 	}
