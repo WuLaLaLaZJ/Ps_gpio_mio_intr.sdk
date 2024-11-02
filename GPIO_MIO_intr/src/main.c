@@ -62,7 +62,7 @@ void Gpio_Config(XGpioPs *Gpio_ps, u16 DeviceId)
 }
 
 /******************************************************************************************
- * 中断服务函数
+ *中断服务函数
  *注意：一定要屏蔽中断和清除中断标志位！且在最后要重新打开中断使能
  *相较于STM32，PS端的中断关闭要操作两次，即屏蔽和清除
  * 关闭后要打开中断使能
@@ -70,7 +70,7 @@ void Gpio_Config(XGpioPs *Gpio_ps, u16 DeviceId)
 void MIO_INTR_PROCESS()
 {
 	printf("intr_test\n");
-
+	flag = ~flag;
 	//屏蔽中断
 	XGpioPs_IntrDisablePin(&GPIO,PS_KEY1);
 	//清除中断标志位
@@ -128,11 +128,7 @@ int main()
 	while(1)
 	{
 		if(XGpioPs_ReadPin(&GPIO,PS_KEY1) == 0)
-		{
-			while ( XGpioPs_ReadPin(&GPIO,PS_KEY1) == 0 )
-			{
-				flag = ~flag;
-			}
+		{			
 			XGpioPs_WritePin(&GPIO,PS_LED1,flag);
 		}
 	}
