@@ -53,6 +53,7 @@ void Gpio_Config(XGpioPs *Gpio_ps, u16 DeviceId)
 	//第二步：设置GPIO的方向，1为输出，0为输入
 	XGpioPs_SetDirectionPin(Gpio_ps, PS_LED1, 1);
 	XGpioPs_SetDirectionPin(Gpio_ps, PS_KEY1, 0);
+	
 
 	//输出使能 	1为使能 	0为不使能
 	XGpioPs_SetOutputEnablePin(Gpio_ps, PS_LED1, 1);

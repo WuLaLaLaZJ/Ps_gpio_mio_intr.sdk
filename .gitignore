@@ -4,3 +4,4 @@ webtalk/
 .metadata/
 *.log
 *.snap
+*.xmi
