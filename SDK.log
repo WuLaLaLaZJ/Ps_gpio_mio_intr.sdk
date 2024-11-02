@@ -13,3 +13,44 @@
 15:35:54 INFO  : Successfully done setting SDK workspace  
 15:35:54 INFO  : Processing command line option -hwspec D:/FPGA/zynq7020_code_MYSELF/Ps_gpio_mio_intr/Ps_gpio_mio_intr.sdk/Ps_Min_System_wrapper.hdf.
 15:35:54 INFO  : Checking for hwspec changes in the project Ps_Min_System_wrapper_hw_platform_0.
+19:15:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:15:42 INFO  : Jtag cable 'Digilent JTAG-HS2 210241076210' is selected.
+19:15:42 INFO  : 'jtag frequency' command is executed.
+19:15:42 INFO  : Sourcing of 'D:/FPGA/zynq7020_code_MYSELF/Ps_gpio_mio_intr/Ps_gpio_mio_intr.sdk/Ps_Min_System_wrapper_hw_platform_0/ps7_init.tcl' is done.
+19:15:42 INFO  : Context for 'APU' is selected.
+19:15:42 INFO  : Hardware design information is loaded from 'D:/FPGA/zynq7020_code_MYSELF/Ps_gpio_mio_intr/Ps_gpio_mio_intr.sdk/Ps_Min_System_wrapper_hw_platform_0/system.hdf'.
+19:15:42 INFO  : 'configparams force-mem-access 1' command is executed.
+19:15:42 INFO  : Context for 'APU' is selected.
+19:15:42 INFO  : 'stop' command is executed.
+19:15:42 INFO  : 'ps7_init' command is executed.
+19:15:42 INFO  : 'ps7_post_config' command is executed.
+19:15:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:15:43 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+19:15:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:15:43 INFO  : The application 'D:/FPGA/zynq7020_code_MYSELF/Ps_gpio_mio_intr/Ps_gpio_mio_intr.sdk/GPIO_MIO_intr/Debug/GPIO_MIO_intr.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:15:43 INFO  : 'configparams force-mem-access 0' command is executed.
+19:15:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/FPGA/zynq7020_code_MYSELF/Ps_gpio_mio_intr/Ps_gpio_mio_intr.sdk/Ps_Min_System_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-HS2 210241076210"} -index 0
+loadhw -hw D:/FPGA/zynq7020_code_MYSELF/Ps_gpio_mio_intr/Ps_gpio_mio_intr.sdk/Ps_Min_System_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-HS2 210241076210"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS2 210241076210"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS2 210241076210"} -index 0
+dow D:/FPGA/zynq7020_code_MYSELF/Ps_gpio_mio_intr/Ps_gpio_mio_intr.sdk/GPIO_MIO_intr/Debug/GPIO_MIO_intr.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:15:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:15:43 INFO  : 'con' command is executed.
+19:15:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS2 210241076210"} -index 0
+con
+----------------End of Script----------------
+
+19:15:43 INFO  : Launch script is exported to file 'D:\FPGA\zynq7020_code_MYSELF\Ps_gpio_mio_intr\Ps_gpio_mio_intr.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_gpio_mio_intr.elf_on_local.tcl'
