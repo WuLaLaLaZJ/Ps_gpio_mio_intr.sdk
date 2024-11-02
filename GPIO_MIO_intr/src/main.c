@@ -63,7 +63,7 @@ void Gpio_Config(XGpioPs *Gpio_ps, u16 DeviceId)
 
 /******************************************************************************************
  * 中断服务函数
- *
+ *注意：一定要屏蔽中断和清除中断标志位！
  *
  * 
  * 
@@ -71,6 +71,11 @@ void Gpio_Config(XGpioPs *Gpio_ps, u16 DeviceId)
 void MIO_INTR_PROCESS()
 {
 	printf("intr_test\n");
+
+	//屏蔽中断
+	XGpioPs_IntrDisablePin(&GPIO,PS_KEY1);
+	//清除中断标志位
+	XGpioPs_IntrClearPin(&GPIO,PS_KEY1);
 }
 
 /******************************************************************************************
