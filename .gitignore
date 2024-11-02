@@ -2,3 +2,5 @@ Debug/
 GPIO_MIO_intr_bsp/
 webtalk/
 .metadata/
+*.log
+*.snap

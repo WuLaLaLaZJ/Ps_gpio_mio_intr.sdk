@@ -1,4 +1,4 @@
-15:38:41 **** Auto Build of configuration Debug for project GPIO_MIO_intr ****
+16:08:29 **** Auto Build of configuration Debug for project GPIO_MIO_intr ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
@@ -59,5 +59,5 @@ In file included from ../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include/xgpiops.h:1
  ^
 make: *** [src/subdir.mk:23: src/main.o] Error 1
 
-15:38:43 Build Finished (took 2s.85ms)
+16:08:30 Build Finished (took 1s.175ms)
 
