@@ -1,0 +1,385 @@
+20:44:17 **** Build of project GPIO_MIO_intr_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+20:45:10 **** Build of configuration Debug for project GPIO_MIO_intr ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: GPIO_MIO_intr.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/lib -o "GPIO_MIO_intr.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+D:\FPGA\zynq7020_code_MYSELF\Ps_gpio_mio_intr\Ps_gpio_mio_intr.sdk\GPIO_MIO_intr_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: GPIO_MIO_intr.elf] Error 1
+20:46:52 **** Build of configuration Debug for project GPIO_MIO_intr_bsp_xadcps_polled_printf_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xadcps_polled_printf_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xadcps_polled_printf_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xadcps_polled_printf_example.d" -MT"src/xadcps_polled_printf_example.o" -o "src/xadcps_polled_printf_example.o" "../src/xadcps_polled_printf_example.c"
+'Finished building: ../src/xadcps_polled_printf_example.c'
+' '
+'Building target: GPIO_MIO_intr_bsp_xadcps_polled_printf_example_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/lib -o "GPIO_MIO_intr_bsp_xadcps_polled_printf_example_1.elf"  ./src/xadcps_polled_printf_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO_MIO_intr_bsp_xadcps_polled_printf_example_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO_MIO_intr_bsp_xadcps_polled_printf_example_1.elf  |tee "GPIO_MIO_intr_bsp_xadcps_polled_printf_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31820	   1160	  22600	  55580	   d91c	GPIO_MIO_intr_bsp_xadcps_polled_printf_example_1.elf
+'Finished building: GPIO_MIO_intr_bsp_xadcps_polled_printf_example_1.elf.size'
+' '
+21:02:59 **** Build of configuration Debug for project GPIO_MIO_intr_bsp_xgpiops_intr_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xgpiops_intr_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpiops_intr_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpiops_intr_example.d" -MT"src/xgpiops_intr_example.o" -o "src/xgpiops_intr_example.o" "../src/xgpiops_intr_example.c"
+'Finished building: ../src/xgpiops_intr_example.c'
+' '
+'Building target: GPIO_MIO_intr_bsp_xgpiops_intr_example_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/lib -o "GPIO_MIO_intr_bsp_xgpiops_intr_example_1.elf"  ./src/xgpiops_intr_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO_MIO_intr_bsp_xgpiops_intr_example_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO_MIO_intr_bsp_xgpiops_intr_example_1.elf  |tee "GPIO_MIO_intr_bsp_xgpiops_intr_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33468	   1928	  22648	  58044	   e2bc	GPIO_MIO_intr_bsp_xgpiops_intr_example_1.elf
+'Finished building: GPIO_MIO_intr_bsp_xgpiops_intr_example_1.elf.size'
+' '
+22:24:51 **** Auto Build of configuration Debug for project GPIO_MIO_intr ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Gpio_Config':
+../src/main.c:50:44: error: 'Psgpio_ptr' undeclared (first use in this function); did you mean 'Gpio_ps'?
+  XGpioPs_CfgInitialize(Gpio_ps, ConfigPtr, Psgpio_ptr->BaseAddr);
+                                            ^~~~~~~~~~
+                                            Gpio_ps
+../src/main.c:50:44: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include/xgpiops.h:119:0,
+                 from ../src/main.c:12:
+../src/main.c: In function 'SetupInterruptSystem':
+../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:74:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/main.c:66:6: note: declared here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId)
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:90:3: error: 'Status' undeclared (first use in this function); did you mean 'XStatus'?
+   Status = XScuGic_Connect(GicInstancePtr, GpioIntrId,
+   ^~~~~~
+   XStatus
+../src/main.c:94:11: warning: 'return' with a value, in function returning void
+    return Status;
+           ^~~~~~
+../src/main.c:66:6: note: declared here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId)
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:98:29: error: 'GPIO_BANK' undeclared (first use in this function); did you mean 'XGPIOPS_BANK1'?
+   XGpioPs_SetIntrType(Gpio, GPIO_BANK, 0x00, 0xFFFFFFFF, 0x00);
+                             ^~~~~~~~~
+                             XGPIOPS_BANK1
+../src/main.c:101:50: error: 'IntrHandler' undeclared (first use in this function); did you mean 'XNullHandler'?
+   XGpioPs_SetCallbackHandler(Gpio, (void *)Gpio, IntrHandler);
+                                                  ^~~~~~~~~~~
+                                                  XNullHandler
+../src/main.c:105:45: error: 'Input_Pin' undeclared (first use in this function)
+   XGpioPs_IntrEnable(Gpio, GPIO_BANK, (1 << Input_Pin));
+                                             ^~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:117:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,
+ ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:117:1: error: conflicting types for 'SetupInterruptSystem'
+../src/main.c:66:6: note: previous definition of 'SetupInterruptSystem' was here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId)
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'SetupInterruptSystem':
+../src/main.c:122:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/main.c:130:1: error: expected '{' at end of input
+ }
+ ^
+../src/main.c:130:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+22:25:23 **** Auto Build of configuration Debug for project GPIO_MIO_intr ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include/xgpiops.h:119:0,
+                 from ../src/main.c:12:
+../src/main.c: In function 'SetupInterruptSystem':
+../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:74:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/main.c:66:6: note: declared here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId)
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:90:3: error: 'Status' undeclared (first use in this function); did you mean 'XStatus'?
+   Status = XScuGic_Connect(GicInstancePtr, GpioIntrId,
+   ^~~~~~
+   XStatus
+../src/main.c:90:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:94:11: warning: 'return' with a value, in function returning void
+    return Status;
+           ^~~~~~
+../src/main.c:66:6: note: declared here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId)
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:98:29: error: 'GPIO_BANK' undeclared (first use in this function); did you mean 'XGPIOPS_BANK1'?
+   XGpioPs_SetIntrType(Gpio, GPIO_BANK, 0x00, 0xFFFFFFFF, 0x00);
+                             ^~~~~~~~~
+                             XGPIOPS_BANK1
+../src/main.c:101:50: error: 'IntrHandler' undeclared (first use in this function); did you mean 'XNullHandler'?
+   XGpioPs_SetCallbackHandler(Gpio, (void *)Gpio, IntrHandler);
+                                                  ^~~~~~~~~~~
+                                                  XNullHandler
+../src/main.c:105:45: error: 'Input_Pin' undeclared (first use in this function)
+   XGpioPs_IntrEnable(Gpio, GPIO_BANK, (1 << Input_Pin));
+                                             ^~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:117:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,
+ ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:117:1: error: conflicting types for 'SetupInterruptSystem'
+../src/main.c:66:6: note: previous definition of 'SetupInterruptSystem' was here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId)
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'SetupInterruptSystem':
+../src/main.c:122:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/main.c:130:1: error: expected '{' at end of input
+ }
+ ^
+../src/main.c:130:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+22:27:45 **** Auto Build of configuration Debug for project GPIO_MIO_intr ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include/xgpiops.h:119:0,
+                 from ../src/main.c:12:
+../src/main.c: In function 'SetupInterruptSystem':
+../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:75:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/main.c:67:6: note: declared here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId)
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:91:3: error: 'Status' undeclared (first use in this function); did you mean 'XStatus'?
+   Status = XScuGic_Connect(GicInstancePtr, GpioIntrId,
+   ^~~~~~
+   XStatus
+../src/main.c:91:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:95:11: warning: 'return' with a value, in function returning void
+    return Status;
+           ^~~~~~
+../src/main.c:67:6: note: declared here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId)
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:99:29: error: 'GPIO_BANK' undeclared (first use in this function); did you mean 'XGPIOPS_BANK1'?
+   XGpioPs_SetIntrType(Gpio, GPIO_BANK, 0x00, 0xFFFFFFFF, 0x00);
+                             ^~~~~~~~~
+                             XGPIOPS_BANK1
+../src/main.c:102:50: error: 'IntrHandler' undeclared (first use in this function); did you mean 'XNullHandler'?
+   XGpioPs_SetCallbackHandler(Gpio, (void *)Gpio, IntrHandler);
+                                                  ^~~~~~~~~~~
+                                                  XNullHandler
+../src/main.c:106:45: error: 'Input_Pin' undeclared (first use in this function)
+   XGpioPs_IntrEnable(Gpio, GPIO_BANK, (1 << Input_Pin));
+                                             ^~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:118:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,
+ ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:118:1: error: conflicting types for 'SetupInterruptSystem'
+../src/main.c:67:6: note: previous definition of 'SetupInterruptSystem' was here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId)
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'SetupInterruptSystem':
+../src/main.c:123:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/main.c:131:1: error: expected '{' at end of input
+ }
+ ^
+../src/main.c:131:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+15:38:39 **** Clean-only build of configuration Debug for project GPIO_MIO_intr ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  GPIO_MIO_intr.elf.size  GPIO_MIO_intr.elf
+' '
+15:38:41 **** Auto Build of configuration Debug for project GPIO_MIO_intr ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include/xgpiops.h:119:0,
+                 from ../src/main.c:12:
+../src/main.c: In function 'SetupInterruptSystem':
+../../GPIO_MIO_intr_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:75:11: note: in expansion of macro 'XST_FAILURE'
+    return XST_FAILURE;
+           ^~~~~~~~~~~
+../src/main.c:67:6: note: declared here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId)
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:91:3: error: 'Status' undeclared (first use in this function); did you mean 'XStatus'?
+   Status = XScuGic_Connect(GicInstancePtr, GpioIntrId,
+   ^~~~~~
+   XStatus
+../src/main.c:91:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:95:11: warning: 'return' with a value, in function returning void
+    return Status;
+           ^~~~~~
+../src/main.c:67:6: note: declared here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId)
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:99:29: error: 'GPIO_BANK' undeclared (first use in this function); did you mean 'XGPIOPS_BANK1'?
+   XGpioPs_SetIntrType(Gpio, GPIO_BANK, 0x00, 0xFFFFFFFF, 0x00);
+                             ^~~~~~~~~
+                             XGPIOPS_BANK1
+../src/main.c:102:50: error: 'IntrHandler' undeclared (first use in this function); did you mean 'XNullHandler'?
+   XGpioPs_SetCallbackHandler(Gpio, (void *)Gpio, IntrHandler);
+                                                  ^~~~~~~~~~~
+                                                  XNullHandler
+../src/main.c:106:45: error: 'Input_Pin' undeclared (first use in this function)
+   XGpioPs_IntrEnable(Gpio, GPIO_BANK, (1 << Input_Pin));
+                                             ^~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:118:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,
+ ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:118:1: error: conflicting types for 'SetupInterruptSystem'
+../src/main.c:67:6: note: previous definition of 'SetupInterruptSystem' was here
+ void SetupInterruptSystem(XScuGic *GicInstancePtr, XGpioPs *Gpio,u16 GpioIntrId)
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'SetupInterruptSystem':
+../src/main.c:123:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/main.c:131:1: error: expected '{' at end of input
+ }
+ ^
+../src/main.c:131:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
